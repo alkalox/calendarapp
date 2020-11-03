@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "opacity": 1,
+        }
+      }
+      testID="calendarbutton"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#000",
+            "borderRadius": 20,
+            "height": 70,
+            "justifyContent": "center",
+            "width": 70,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/calendar.png",
+            }
+          }
+          style={
+            Object {
+              "height": 30,
+              "width": 30,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 21,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        View full Calendar
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/down-arrow.png",
+          }
+        }
+        style={
+          Object {
+            "height": 23,
+            "width": 23,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#505050",
+          "fontSize": 22,
+          "fontWeight": "bold",
+          "marginTop": 30,
+        }
+      }
+      testID="dateHeading"
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 90,
+          "marginTop": 20,
+          "width": "100%",
+        }
+      }
+      testID="Events"
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#518de7",
+            "flex": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 30,
+            "justifyContent": "space-between",
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#74747b",
+              "fontSize": 13,
+            }
+          }
+        >
+          10:00 AM - 10:30 AM
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#505050",
+              "fontSize": 22,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Jonathan
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#505050",
+              "fontSize": 18,
+            }
+          }
+        >
+          Building habits
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#959595",
+          "height": 1,
+          "marginTop": 20,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 90,
+          "marginTop": 20,
+          "width": "100%",
+        }
+      }
+      testID="Events"
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#518de7",
+            "flex": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 30,
+            "justifyContent": "space-between",
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#74747b",
+              "fontSize": 13,
+            }
+          }
+        >
+          06:00 PM - 07:00 PM
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#505050",
+              "fontSize": 22,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Joe
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#505050",
+              "fontSize": 18,
+            }
+          }
+        >
+          Journalling session
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#959595",
+          "height": 1,
+          "marginTop": 20,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
