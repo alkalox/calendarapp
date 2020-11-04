@@ -11,8 +11,8 @@ export const dataObj = {
     "title": "Journalling session",
     "time": "06:00 PM - 07:00 PM",
   }],
-  "2020-11-01": [{
-    "name":"Donald",
+  "2020-11-04": [{
+    "name":"John",
     "title": "Mindfulness Session",
     "time": "8:00 AM - 8:30 AM",
   }, {

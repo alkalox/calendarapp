@@ -57,7 +57,7 @@ const App = () => {
         )) 
       :
         <Text style = {styles.altTextStyle} testID = "noEventsText">
-          🤔 There are no events for the selected date.
+          🤔 There are no events for this date.
         </Text>
       }
     </ScrollView>
